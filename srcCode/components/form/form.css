@@ -1,0 +1,32 @@
+.formContainer {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 400px;
+}
+.formContainer input,
+.formContainer select,
+.formContainer textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: block;
+}
+.formContainer label {
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+.formContainer label:after {
+  content: ":";
+}
+.formContainer .radioButtons input {
+  display: inline-block;
+}

@@ -1,0 +1,33 @@
+.ListItems {
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+.textAlign {
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+.ListItems a {
+  text-decoration: none;
+  color: #fff;
+}
+.sideDrawer {
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  width: 25%;
+  max-width: 300px;
+  background: #888888;
+  min-height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.buttonClass {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  border: none;
+  transform: translateX(100%);
+}

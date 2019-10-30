@@ -1,0 +1,39 @@
+.Slider {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+.slideWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.slide {
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+  transform: translateX(12%);
+}
+.LeftButton,
+.RightButton {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background: #000;
+  border-radius: 100%;
+  text-align: center;
+}
+.RightButton {
+  right: 0;
+}
+.LeftButton svg,
+.RightButton svg {
+  color: #fff;
+  margin-top: 6px;
+}
